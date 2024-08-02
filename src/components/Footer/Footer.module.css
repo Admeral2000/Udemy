@@ -1,0 +1,130 @@
+.footer {
+  width: 100%;
+  padding-top: 48px;
+  text-align: center;
+  background-color: #f4f7ff;
+}
+
+.udevsLogo {
+  width: 106px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+  margin-bottom: 32px;
+}
+
+.navigation > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.navigation > div > h3 {
+  font-size: 1em;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+.navigation > div > a {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: 18px;
+  line-height: 32px;
+  color: #1b5bf7;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 25px 0;
+  border-top: 1px solid rgba(27, 91, 247, 0.2);
+}
+.copyright > p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #1b5bf7;
+  font-weight: 500;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: rgba(27, 91, 247, 0.1);
+  text-decoration: none;
+}
+
+.socialLinks > svg {
+  fill: #1b5bf7;
+  font-size: 24px;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    padding-top: 16px;
+  }
+
+  .udevsLogo {
+    width: 125px;
+  }
+
+  .navigation {
+    margin-top: 16px;
+    justify-content: center;
+    min-width: 50%;
+    flex-direction: column;
+  }
+
+  .navigation > div > h3 {
+    font-size: 1.2em;
+    margin-bottom: 21.6px;
+  }
+  .navigation > div > a {
+    width: 100%;
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+  }
+
+  .copyright {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    padding: 15px 0;
+    border: none;
+  }
+
+  .social {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .socialLinks {
+    background-color: #1b5bf7;
+  }
+  .socialLinks > svg {
+    fill: #fff;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 850px) {
+  .navigation > div {
+    margin: 20px 0;
+  }
+  .navigation > div:first-child {
+    order: 1;
+  }
+}

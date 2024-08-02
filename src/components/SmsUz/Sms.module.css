@@ -1,0 +1,7 @@
+.wrapperAddStyle:nth-child(odd) {
+  flex-direction: row;
+}
+
+.imgWrapperAddStyle > img {
+  height: auto;
+}

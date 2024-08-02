@@ -1,0 +1,170 @@
+.deleverSection {
+  width: 100%;
+  padding: 80px 0;
+  background: url("/mobille_app_bg.jpg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.wrapperInner {
+  width: 48%;
+}
+
+.title {
+  display: block;
+  width: 100%;
+  margin-bottom: 34px;
+}
+
+.brend {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.projectType {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 16px;
+  border-radius: 100px;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #ff5722;
+}
+
+.projectType > img {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+.innerRespons {
+  display: none !important;
+}
+.innerRespons > .imgWrapper > img {
+  height: 100%;
+}
+
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.imgWrapper > img {
+  width: 100%;
+  border-radius: 24px;
+}
+
+.description {
+  display: block;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #464359;
+}
+
+.services {
+  width: 100%;
+  margin: 24px 0;
+}
+
+.services > h3 {
+  font-size: 1.38316rem;
+  margin-bottom: 24.89px;
+}
+
+.servicesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.customCard {
+  min-width: 160px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  padding: 16px;
+}
+
+.customCard:nth-child(3n) {
+  margin-right: 0;
+}
+
+.innerDesktop {
+  display: block !important;
+}
+
+@media (max-width: 900px) {
+  .deleverSection {
+    padding: 42px 0;
+  }
+
+  .wrapper {
+    justify-content: flex-start;
+  }
+  .wrapper:nth-child(odd) {
+    flex-direction: column;
+  }
+
+  .wrapperInner {
+    width: 100%;
+  }
+
+  .title {
+    margin-bottom: 16px;
+    margin-top: 24px;
+  }
+
+  .brend {
+    margin-bottom: 16px;
+    max-width: 260px;
+    max-height: 54px;
+  }
+
+  .projectType {
+    padding: 4px 8px;
+  }
+  .projectType > img {
+    width: 20px;
+    height: 20px;
+    max-width: 260px;
+    max-height: 54px;
+  }
+
+  .innerRespons {
+    display: block !important;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .services {
+    margin: 16px 0;
+  }
+
+  .customCard {
+    min-width: 95px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    min-height: 100px;
+    width: 31.5%;
+    max-width: 32%;
+  }
+
+  .innerDesktop {
+    display: none !important;
+  }
+}
