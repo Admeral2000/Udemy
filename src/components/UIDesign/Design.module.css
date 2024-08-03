@@ -4,3 +4,8 @@
 .techExtra:last-child {
   margin-right: 0 !important;
 }
+@media (max-width:900px) {
+  .techExtra {
+    margin-right: 16px !important;
+  }
+}

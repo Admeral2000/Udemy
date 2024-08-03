@@ -21,6 +21,7 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
 .navigation > div > h3 {
   font-size: 1em;
   font-weight: 700;
@@ -36,6 +37,10 @@
   line-height: 32px;
   color: #1b5bf7;
 }
+.navigation > div > a:hover {
+  text-decoration: underline;
+  outline-width: 0;
+  }
 
 .copyright {
   display: flex;
@@ -98,6 +103,7 @@
     line-height: 28px;
     font-weight: 500;
   }
+  
 
   .copyright {
     flex-direction: column-reverse;
@@ -124,7 +130,11 @@
   .navigation > div {
     margin: 20px 0;
   }
-  .navigation > div:first-child {
+  .navigation{
+    flex-direction: column-reverse;
+  }
+  .navigation >div:first-child {
     order: 1;
   }
+ 
 }

@@ -4,6 +4,7 @@
   padding: 80px 0;
 }
 
+
 .serviceSectionWrapper {
   display: flex;
   justify-content: space-between;
@@ -20,6 +21,7 @@
   line-height: 40px;
   font-weight: 500;
   color: #18191f;
+  margin-bottom: 26.1px;
 }
 
 .iconWrapper {
@@ -36,8 +38,13 @@
   .serviceSection {
     padding: 16px 0;
   }
-
-  .serviceSectionWrapper {
+.serviceSection:nth-child(2n) .serviceSectionWrapper {
+ flex-direction: column-reverse;
+}
+.serviceSection .serviceSectionWrapper {
+  flex-direction: column;
+}
+.serviceSectionWrapper {
     justify-content: flex-start;
     margin-top: 24px;
   }
@@ -50,7 +57,12 @@
     font-size: 16px;
     line-height: 30px;
     margin-top: 16px;
+    margin-bottom: 23.2px;
   }
+
+  .customCard:nth-child(3n) {
+  margin-right: 0;
+}
 
   .iconWrapper {
     margin: 16px 0;

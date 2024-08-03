@@ -20,6 +20,7 @@
   line-height: 40px;
   font-weight: 500;
   color: #464359;
+  margin: 0 0 1.45rem;
 }
 
 .teamInfoWrapper {
@@ -74,5 +75,6 @@
     max-width: 300px;
     margin: 32px;
     align-self: center;
+    height: auto;
   }
 }

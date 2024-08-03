@@ -46,7 +46,7 @@ const Menu = ({ isOpen, closeMenu }) => {
 
       <div className={cls.mobileHeaderBottom}>
         <div className={cls.callToAction}>
-          <Link href="/contact" onClick={closeMenu}>
+          <Link href="#contact" onClick={closeMenu}>
             Contact
           </Link>
         </div>

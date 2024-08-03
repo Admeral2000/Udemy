@@ -38,4 +38,13 @@
   .serviceSectionInner {
     width: 100%;
   }
+
+  .bgImage,.image{
+    height: auto;
+    border-style: none;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
 }

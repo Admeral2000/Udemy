@@ -50,6 +50,7 @@ a {
     max-width: 270px;
     font-size: 32px;
     line-height: 40px;
-    /* font-weight: 800; */
+    font-weight: 800;
+    margin-bottom: 21.44px;
   }
 }

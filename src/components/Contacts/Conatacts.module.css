@@ -224,6 +224,9 @@
   /* .contactMap {
       display: none;
     } */
+    .contactMap>iframe  {
+      width: auto;
+    }
 }
 
 @media (max-width: 800px) {

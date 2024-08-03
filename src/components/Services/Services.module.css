@@ -34,4 +34,10 @@
   .serviceWrapper {
     margin-top: 72px;
   }
+  .serviceWrapper > .customCard:nth-child(3n) {
+    margin-right: 12px;
+  }
+  .serviceWrapper > .customCard:nth-child(2n) {
+    margin-right: 0;
+  }
 }
